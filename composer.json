@@ -1,0 +1,26 @@
+{
+  "name": "wtframework/enums",
+  "description": "What the Framework?! enums",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "WTFramework\\Enums\\": "src/"
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^1.22"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": false
+    }
+  }
+}
